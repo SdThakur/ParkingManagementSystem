@@ -1,7 +1,7 @@
-# UMBC Parking Management System
+# Parking Management System
 
 ## Overview
-This project implements a comprehensive **UMBC Parking Management Database System** using PostgreSQL 16 and Docker. The system automates parking permits, lot availability tracking via ground sensors (triggers), enforcement (stored procedures), and optimized reporting for campus administrators.
+This project implements a comprehensive **Parking Management Database System** using PostgreSQL 16 and Docker. The system automates parking permits, lot availability tracking via ground sensors (triggers), enforcement (stored procedures), and optimized reporting for campus administrators.
 
 ---
 
@@ -33,7 +33,7 @@ umbc-parking-system
 ---
 
 ## Starting the Environment
-1. Open a terminal in the project directory: `cd umbc-parking-system`
+1. Open a terminal in the project directory: `cd ParkingManagementSystem`
 2. Start the containers: `docker-compose up -d`
 3. Verify status: `docker ps` (You should see `parking_postgres` and `parking_pgadmin` running)
 
